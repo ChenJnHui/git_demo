@@ -5,5 +5,5 @@ app_name = 'uu'
 
 urlpatterns = [
     re_path('^index/$', views.index, name='index'),
-    re_path('^say/$', views.say, name='say'),
+    re_path(r'^say/$', views.say),
 ]
